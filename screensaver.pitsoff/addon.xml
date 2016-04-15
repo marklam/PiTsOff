@@ -19,7 +19,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.  
 -->
 
-<addon id="screensaver.pitsoff" name="pitsoff" version="0.2.3" provider-name="Mark Lambert">
+<addon id="screensaver.pitsoff" name="pitsoff" version="0.2.4" provider-name="Mark Lambert">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="xbmc.addon" version="13.0.0"/>
@@ -31,7 +31,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
         <language/>
         <website>https://github.com/marklam/PiTsOff</website>
         <source>https://github.com/marklam/PiTsOff</source>
-        <forum/>
+        <forum>https://discourse.osmc.tv/t/touchscreen-backlight-control-on-raspberry-pi/12485/12</forum>
         <email/>
         <summary lang="en">Pi Touchscreen Screensaver</summary>
         <description>Switches off the official Raspberry Pi Touchscreen</description>

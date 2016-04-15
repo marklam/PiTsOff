@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-#	 PiTsOff
+#    PiTsOff
 #    Copyright (C) 2016  Mark Lambert
 #  
 #    This program is free software; you can redistribute it and/or modify  
