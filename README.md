@@ -4,6 +4,7 @@ Kodi/OSMC screensaver for Raspberry Pi offical touchscreen.
 This is a screensaver addon for kodi which can switch the official raspberry pi touchscreen backlight off/on.
 
 It has been tested on OSMC, but it requires at least version 2016.04-1 (because that release has the backlight control overlay included).
+It has also been tested on OpenELEC 6.95.2.
 It might work on other Kodi installs, provided the underlying operating system has the ``/sys/class/backlight/rpi_backlight/bl_power`` path available.
 
 To install:
@@ -23,6 +24,6 @@ To switch the screen back on:
 
 1. Touch the screen once
 2. Wait a second for the backlight to come on
-3. Continue using Kodi/OSMC
+3. Continue using Kodi/OSMC/OpenELEC
 
 If you want a screensaver to turn an HDMI monitor off/on instead, take a look at [pimon](https://github.com/timker/kodi.screensaver.pimon) which was where I got the inspiration & starting point for this project.
