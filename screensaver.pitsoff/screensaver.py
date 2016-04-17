@@ -23,11 +23,17 @@ import xbmcgui
 import xbmc
 import sys
 import subprocess
+import os
 
 addon = xbmcaddon.Addon()
 CWD = addon.getAddonInfo('path')
-blankCommand   = 'sudo bash -c \'echo 1 > /sys/class/backlight/rpi_backlight/bl_power\''
-unblankCommand = 'sudo bash -c \'echo 0 > /sys/class/backlight/rpi_backlight/bl_power\''
+
+powerCommand = 'echo %d > /sys/class/backlight/rpi_backlight/bl_power'
+if os.geteuid() != 0:
+    powerCommand = 'sudo bash -c \'' + powerCommand + '\''
+
+blankCommand   = powerCommand % 1
+unblankCommand = powerCommand % 0
 
 class Screensaver(xbmcgui.WindowXMLDialog):
 
