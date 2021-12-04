@@ -1,7 +1,7 @@
 # PiTsOff
-Kodi/OSMC screensaver for Raspberry Pi offical touchscreen.
+Kodi/OSMC screensaver for Raspberry Pi officisal touchscreen.
 
-This is a screensaver addon for kodi which can switch the official raspberry pi touchscreen backlight off/on.
+This is a screensaver addon for Kodi which can switch the official raspberry pi touchscreen backlight off/on.
 
 It has been tested on OSMC, but it requires at least version 2016.04-1 (because that release has the backlight control overlay included).
 It has also been tested on OpenELEC 6.95.2.
@@ -11,14 +11,14 @@ To install:
 
 1. Using a web browser (on your PC or whatever), download the screensaver.pitsoff-x.x.x.zip file from the project's releases
 2. Copy the zip somewhere the Pi can find it
-3. From the Add-on page, choose install from zip and locate the zip file, then wait for the installed message
+3. From the Add-on page, choose install from zip and locate the zip file, then wait for the installed message. You may need to allow installing addons from any source (this is a security risk, and I encourage you to look inside the zip file to check that there's nothing in there that shouldn't be, and do the same for any other addons you install in this way).
 4. From the Appearance settings, select the newly-installed screensaver and choose a timeout
 
 To use it:
 
 1. Wait for the screensaver to start
 2. The screen will go black
-3. The backlight should swtch off
+3. The backlight should switch off
 
 To switch the screen back on:
 
