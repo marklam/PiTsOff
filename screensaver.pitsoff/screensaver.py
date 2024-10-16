@@ -28,7 +28,7 @@ import os
 addon = xbmcaddon.Addon()
 CWD = addon.getAddonInfo('path')
 
-powerCommand = 'echo %d > /sys/class/backlight/rpi_backlight/bl_power'
+powerCommand = 'echo %d > /sys/class/backlight/10-0045/bl_power'
 if os.geteuid() != 0:
     powerCommand = 'sudo bash -c \'' + powerCommand + '\''
 
